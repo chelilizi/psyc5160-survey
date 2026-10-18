@@ -4,12 +4,14 @@ Participant-facing flow:
 Nickname + Code -> Consent/background -> Demographics -> One-time audio -> 8 MC -> 7 ratings -> Submit
 
 Participants never see or select a version. The Code selects the internal survey_version and MP3:
-HK314 -> 1 -> audio1.mp3
-LM527 -> 2 -> audio2.mp3
-NP683 -> 3 -> audio3.mp3
-QR246 -> 4 -> audio4.mp3
-ST915 -> 5 -> audio5.mp3
-VX408 -> 6 -> audio6.mp3
+
+Participant code | survey_version | filename   | internal description
+HK314            | 1              | audio1.mp3 | Godfrey’s friend_Original
+LM527            | 2              | audio2.mp3 | Godfrey's friend_1.3x
+NP683            | 3              | audio3.mp3 | Klowie 1st friend_Original
+QR246            | 4              | audio4.mp3 | Klowie 1st friend_1.3x
+ST915            | 5              | audio5.mp3 | Klowie 2nd friend_Original
+VX408            | 6              | audio6.mp3 | Klowie 2nd friend_1.3x
 
 Before deployment:
 1. Run supabase_update_v3.sql once in Supabase SQL Editor.
